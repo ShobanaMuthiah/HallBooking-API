@@ -21,7 +21,7 @@ export const user=[
         date: "2024-06-17",
         startTime: "10:00",
         endTime: "12:00",
-        roomId: 5
+        roomId: 2
     },
     {
         bookingid:4,
