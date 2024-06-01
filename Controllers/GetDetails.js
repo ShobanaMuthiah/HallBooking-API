@@ -13,8 +13,8 @@ export const userRoute=(req,res)=>{
 //get particular user data
 export const getRoomdetail=(req,res)=>{
     const roomId=req.params.id
-    console.log(BookedId);
-    const roomDetail=user.find(ele=>ele.id==roomId)
+    // console.log(BookedId);
+    const roomDetail=rooms.find(ele=>ele.id==roomId)
     if(!roomDetail){
        return res.status(404).send("Room is not Booked yet")
     }
@@ -23,8 +23,7 @@ export const getRoomdetail=(req,res)=>{
 
 //get particular user data
 export const getUserdetail=(req,res)=>{
-    const BookedId=req.params.id
-    console.log(BookedId);
+    const BookedId=req.params.id;
     const userdata=user.find(ele=>ele.roomId==BookedId)
     if(!userdata){
        return res.status(404).send("Room is not Booked yet")
