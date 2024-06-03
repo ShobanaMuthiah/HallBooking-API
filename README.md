@@ -17,4 +17,4 @@ This endpoint contains all the room deatails
 ### Host:- https://hallbooking-api-nx1j.onrender.com/api/hallbooking/users
 This endpoint contains all the user deatails
 
-## POSTMAN DOCUMENTATION: https://documenter.getpostman.com/view/34996607/2sA3QwaU
+## POSTMAN DOCUMENTATION: https://documenter.getpostman.com/view/34996607/2sA3QwaUVh
